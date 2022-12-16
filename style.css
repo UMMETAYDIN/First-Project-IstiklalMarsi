@@ -1,0 +1,59 @@
+body{
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    width: 700px;
+    margin: auto;
+}
+
+
+h1{
+    text-align: center;
+    background-color: white;
+    color: red;
+}
+
+h1:hover{
+background-color: red;
+color: white;
+
+}
+
+h2{
+/* display: inline-block; */
+text-align: center
+
+}
+h2:hover{
+    background-color: red;
+    color: white;
+    display: inline-block;  
+}
+
+
+p{
+border: 5px solid red;
+padding: 10px;
+line-height: 2em;
+/* transition: all 500ms; */
+}
+
+p:hover{
+    outline:solid 10px white;
+}
+
+.kb{
+    background-color: red;
+    color:white;
+}
+  
+.bk{
+    background-color: white;
+    color: red;
+}
+.sancak{
+   background-color: white;
+   color: red;
+   padding: 5px;
+   text-decoration: underline;
+}
